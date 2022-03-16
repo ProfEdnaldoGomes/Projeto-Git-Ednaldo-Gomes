@@ -1,0 +1,90 @@
+Curso Git / Github
+
+1. O que é Git e Github
+- O Git é um sistema de versionamento de arquivos, que 
+  possibilita salvar diferentes versões de um 
+  código. Também possibilita o trabalho em grupos
+
+- O Github é um local onde será armazenado todo o código 
+  versionado
+  
+2. Instalações
+- Downloads - Git SCM
+https://git-scm.com 
+
+Após a instalação, digitar 'git --help'. Caso
+apareça uma lista de comandos, a instalação foi 
+bem sucedida.
+
+3. Criar conta no Github
+- Entrar no site http://github.com
+- fazer uma conta 
+
+4. Como inicializar um repositório
+- criar uma nova pasta
+- com botão direito do mouse(pad), selecionar
+  a função 'Git Bash Here' (isto significa abrir uma
+  linha de comando nesta pasta)
+- digitar 'git init'. O arquivo criado fica oculto (sua
+  criação é automática e ele não deve ser modificado 
+  manualmente)
+- criar um arquivo que servirá como a versão 1 de nosso código
+- para verificar se o meu repositório está ou não atualizado, 
+  digitar o comando 'git status'. os códigos não incluídos no
+  controle de versão (untracked) aparecem em vermelho
+  
+5. Adicionar arquivos a um controle de versão
+
+5.1. Adicionar um arquivo
+- digitar o comando git add "<file name>" + enter
+- ao digitar git status novamente, aparecerá em verde
+  a mensagem: new file: <file name>
+
+5.2. Adicionar vários arquivos
+- digitar o comando git add . + enter
+- se for digitado novamente git status, todos 
+  os arquivos devem aparecer precedidos de 
+  "new file: <file>", na cor verde
+ 
+6. Criar a primeira versão do código (primeiro versionamento)
+- digitar do comando commit. O '-m' significa 'mensagem':
+
+				git commit -m "commit inicial"
+
+→  se este código for rodado pela 1a vez, será solicitado que 
+   o usuário configure o git de seu computador   
+→  para configurar o usuário do git, precisamos digitar os
+   seguintes comandos:
+   git config --global user.email "ednaldo.gomes@ifsertao-pe.edu.br" + enter
+   git config --global user.name "Ednaldo Gomes" + enter
+
+→ executados esses comandos, repete-se o comando:
+
+				git commit -m "commit inicial"
+
+o resultado que aparece é este: 
+$ git commit -m "commit inicial"                # criamos uma nova versão do código
+[master (root-commit) 6b08aab] commit inicial   # branch
+ 3 files changed, 1 insertion(+)                # arquivos adicionados
+ create mode 100644 Meu codigo.txt
+ create mode 100644 Minha apresentacao.pptx
+ create mode 100644 Minha planilha.xlsx
+
+7. Enviar arquivos para nuvem usando o git push
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

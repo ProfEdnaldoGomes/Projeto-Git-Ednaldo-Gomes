@@ -1,1 +1,2 @@
-Olá meu nome é Ednaldo
+Olá, meu nome é Ednaldo
+Olá, eu digitei essa nova linha para a aula 8 do curso
